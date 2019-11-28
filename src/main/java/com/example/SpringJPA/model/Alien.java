@@ -11,7 +11,7 @@ public class Alien {
 
     @Override
     public String toString() {
-        return "" +
+        return "toString" +
                 "aid=" + aid +
                 ", aname='" + aname + '\'' +
                 '}';
