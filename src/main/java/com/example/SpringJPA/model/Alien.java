@@ -13,7 +13,7 @@ public class Alien {
     public String toString() {
         return "toString" +
                 "aid=" + aid +
-                ", aname='" + aname + '\'' +
+                ", aname=='" + aname + '\'' +
                 '}';
     }
 
