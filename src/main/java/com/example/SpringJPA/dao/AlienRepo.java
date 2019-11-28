@@ -9,8 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 public interface AlienRepo extends Repository<Alien,Integer> {
 
-    /*@Query("SELECT aid FROM Alien WHERE aid > ?1")
-    Iterable<Alien> findByaidGreater(int aid);*/
+  
 
     @Query("FROM Alien WHERE aid > ?1")
     Iterable<Alien> findByaidGreater(int aid);
